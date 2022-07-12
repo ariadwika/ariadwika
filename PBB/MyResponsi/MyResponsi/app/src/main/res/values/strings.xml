@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MyResponsi</string>
+    <string name="nama">Aria Dwika Wicaksana</string>
+    <string name="nim">A11.2020.12607</string>
+    <string name="kartu_hasil_studi">Kartu Hasil Studi</string>
+    <string name="about">About</string>
+    <string name="log_out">Log Out</string>
+    <string name="entry">Entry</string>
+    <string name="tampil">Tampil</string>
+    <string name="cetak">Cetak</string>
+    <string name="laporan">Laporan</string>
+    <string name="fakultas_ilmu_komputer">Fakultas Ilmu Komputer</string>
+    <string name="teknik_informatika">TEKNIK INFORMATIKA</string>
+    <string name="fik">FIK</string>
+    <string name="entry_data_khs">Entry Data KHS</string>
+    <string name="namas">Nama</string>
+    <string name="aaa">:</string>
+    <string name="nims">NIM</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="ti_si">TI - SI</string>
+    <string name="predikat">Predikat</string>
+    <string name="nilai_huruf">N Huruf</string>
+    <string name="nilai_angka">N Angka</string>
+    <string name="sks">SKS</string>
+    <string name="mata_kuliah">Mata Kuliah</string>
+    <string name="kode">Kode</string>
+    <string name="mahasiswa">Mahasiswa</string>
+    <string name="no">No.</string>
+    <string name="nama_matkul">Matkul</string>
+    <string name="_1">1</string>
+    <string name="a11_4312">A11.4307</string>
+    <string name="_3">3</string>
+    <string name="_100">100</string>
+    <string name="a">A</string>
+    <string name="_2">2</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="sistemm_basis_data">Sistemm Basis Data</string>
+    <string name="a11_4508">A11.4508</string>
+    <string name="manajemen_proyek">Manajemen Proyek</string>
+    <string name="sistem_informasi">Sistem Informasi</string>
+    <string name="jaringan_komputer">Jaringan Komputer</string>
+    <string name="bimbingan_karir">Bimbingan Karir</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="ipk_4_00">IPK = 4.00</string>
+    <string name="total_sks_14">Total SKS = 14</string>
+    <string name="jumlah_mata_kuliah_5">Jumlah Mata Kuliah = 5</string>
+    <string name="spasi" />
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>

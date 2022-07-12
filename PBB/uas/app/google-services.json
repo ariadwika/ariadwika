@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "381496468701",
+    "firebase_url": "https://fir-uas12607-default-rtdb.firebaseio.com",
+    "project_id": "fir-uas12607",
+    "storage_bucket": "fir-uas12607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381496468701:android:0a2e271deb90e681916734",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381496468701-783rcfs563jinnetlf2kpqmc06fo3edh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcFh0ncd2QSkvVgc_SLu4g8g5hX0Q4YVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381496468701-783rcfs563jinnetlf2kpqmc06fo3edh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

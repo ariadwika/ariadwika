@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096540957337",
+    "project_id": "projekfirebasesafira-d9379",
+    "storage_bucket": "projekfirebasesafira-d9379.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096540957337:android:e3e4ec20a348197522a608",
+        "android_client_info": {
+          "package_name": "com.example.projekfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096540957337-p8gd1kamlc2kfvh6lvr24hkp31mkok9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtrtgFpu3noOv7QN87GMfTQ1foa6fT7pU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096540957337-p8gd1kamlc2kfvh6lvr24hkp31mkok9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

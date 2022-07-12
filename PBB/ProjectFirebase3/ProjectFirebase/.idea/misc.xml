@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FIK JAYA/PBB/ProjectFirebase3/ProjectFirebase/app/src/main/res/layout/activity_format_tampilan.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/ProjectFirebase3/ProjectFirebase/app/src/main/res/layout/activity_formulir_pegawai.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/ProjectFirebase3/ProjectFirebase/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/ProjectFirebase3/ProjectFirebase/app/src/main/res/layout/tampil_data_guru.xml" value="0.20416666666666666" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/ProjectFirebase/app/src/main/res/layout/activity_form_pegawai.xml" value="0.35820894502642775" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/ProjectFirebase/app/src/main/res/layout/activity_format_tampilan.xml" value="0.1" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/ProjectFirebase/app/src/main/res/layout/activity_formulir_pegawai.xml" value="0.20364583333333333" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/ProjectFirebase/app/src/main/res/layout/activity_main.xml" value="0.2364179037174423" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/ProjectFirebase/app/src/main/res/layout/activity_tampil_data_guru.xml" value="0.1" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/ProjectFirebase/app/src/main/res/layout/tampil_data_guru.xml" value="0.2364179037174423" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

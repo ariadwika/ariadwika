@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/bordersquare"
+    tools:context=".DetailObat">
+    <TextView
+        android:hint="Nama Obat"
+        android:paddingBottom="20dp"
+        android:id="@+id/nm_obat"
+        android:textSize="20dp"
+        android:textColor="@color/purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:background="@drawable/border2"
+        android:gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="170dp">
+        <ImageView
+            android:id="@+id/gambarterima"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Harga : "
+                android:textSize="20dp"
+                android:textColor="@color/purple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:hint="Harga Obat"
+                android:id="@+id/hrg_obat"
+                android:textSize="20dp"
+                android:textColor="@color/purple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Satuan : "
+                android:textSize="20dp"
+                android:textColor="@color/purple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:hint="Satuan Obat"
+                android:id="@+id/tp_obat"
+                android:textSize="20dp"
+                android:textColor="@color/purple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="Keterangan Obat"
+        android:textSize="20dp"
+        android:textColor="@color/purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/ket_obat"
+        android:textSize="15dp"
+        android:background="@color/darkblue"
+        android:textColor="@color/white"
+        android:hint="Disini Keterangan Obat yang Dikirim"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

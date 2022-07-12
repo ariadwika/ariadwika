@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FIK JAYA/PBB/KartuRencanaStudi/KartuRencanaStudi/app/src/main/res/layout/activity_hasil_entry.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/KartuRencanaStudi/KartuRencanaStudi/app/src/main/res/layout/activity_hasil_tampil.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/KartuRencanaStudi/KartuRencanaStudi/app/src/main/res/layout/activity_hasil_tentang.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/KartuRencanaStudi/KartuRencanaStudi/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/IKROMI/AndroidStudioProjects/KartuRencanaStudi/app/src/main/res/drawable/background1.xml" value="0.23692307692307693" />
+        <entry key="..\:/Users/IKROMI/AndroidStudioProjects/KartuRencanaStudi/app/src/main/res/layout/activity_hasil_entry.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/IKROMI/AndroidStudioProjects/KartuRencanaStudi/app/src/main/res/layout/activity_hasil_tampil.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/IKROMI/AndroidStudioProjects/KartuRencanaStudi/app/src/main/res/layout/activity_hasil_tentang.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/IKROMI/AndroidStudioProjects/KartuRencanaStudi/app/src/main/res/layout/activity_main.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fotodashboard"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/foto"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ARIA DWIKA WICAKSANA   A11.2020.12607">
+                </TextView>
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A11.2020.12667">
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Hasil Kartu Hasil Studi"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:background="@color/blue"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </TextView>
+
+            // TOMBOL
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                // B1 Tombol 1
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/klikentry"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="100dp"
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_height="110dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/background1"
+                            android:src="@drawable/info_entry"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="ENTRY"
+                            android:textColor="@color/red"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="0dp"></View>
+
+                // B1 Tombol 2
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/kliktampil"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="100dp"
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_height="110dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/background1"
+                            android:src="@drawable/info_tampil"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="TAMPIL"
+                            android:textColor="@color/red"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                // B2 Tombol 1
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/klikcetak"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="100dp"
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_height="110dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/background1"
+                            android:src="@drawable/info_cetak"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="CETAK"
+                            android:textColor="@color/red"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="0dp"></View>
+
+                // B2 Tombol 2
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/kliklaporan"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="100dp"
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_height="110dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/background1"
+                            android:src="@drawable/info_laporan"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="LAPORAN"
+                            android:textColor="@color/red"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                // B3 Tombol 1
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/kliktentang"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="100dp"
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_height="110dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/background1"
+                            android:src="@drawable/info_tentang"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="TENTANG"
+                            android:textColor="@color/red"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="0dp"></View>
+
+                // B3 Tombol 2
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/klikkeluar"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="100dp"
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_height="110dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/background1"
+                            android:src="@drawable/info_exit"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="KELUAR"
+                            android:textColor="@color/red"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="FAKULTAS ILMU KOMPUTER"
+                    android:textColor="@color/white"
+                    android:background="@color/blue"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </TextView>
+                <TextView
+                    android:text="TEKNIK INFORMATIKAA"
+                    android:textColor="@color/white"
+                    android:background="@color/blue"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

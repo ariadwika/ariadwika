@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HasilTampil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:text="Kartu Hasil Studi"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="NIM : A11.2020.12607"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Nama : Aria Dwika Wicaksana"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Jurusan : TI - S1"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:background="@color/red"
+                android:text="No Kode MataKuliah SKS Angka Huruf"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <ListView
+                android:id="@+id/nomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="No"></ListView>
+
+            <ListView
+                android:id="@+id/kode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Kode"></ListView>
+
+            <ListView
+                android:id="@+id/matkul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Mata Kuliah"></ListView>
+
+            <ListView
+                android:id="@+id/sks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="SKS"></ListView>
+
+            <ListView
+                android:id="@+id/angka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Angka"></ListView>
+
+            <ListView
+                android:id="@+id/huruf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Huruf"></ListView>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

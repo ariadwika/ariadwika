@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FIK JAYA/PBB/MyResponsi/MyResponsi/app/src/main/res/layout/activity_main.xml" value="0.12047101449275362" />
+        <entry key="..\:/FIK JAYA/PBB/MyResponsi/MyResponsi/app/src/main/res/layout/activity_main_entry.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/MyResponsi/MyResponsi/app/src/main/res/layout/activity_main_tampil.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

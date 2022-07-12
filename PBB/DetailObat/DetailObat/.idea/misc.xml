@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/DetailObat/app/src/main/res/drawable/border1.xml" value="0.21979166666666666" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/DetailObat/app/src/main/res/drawable/border2.xml" value="0.21979166666666666" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/DetailObat/app/src/main/res/drawable/bordersquare.xml" value="0.21979166666666666" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/DetailObat/app/src/main/res/layout/activity_detail_obat.xml" value="0.20364583333333333" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/DetailObat/app/src/main/res/layout/activity_main.xml" value="0.4245385450597177" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/DetailObat/app/src/main/res/layout/activity_main_list.xml" value="0.20364583333333333" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/DetailObat/app/src/main/res/layout/activity_tentang.xml" value="0.20364583333333333" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/DetailObat/app/src/main/res/layout/detailobat.xml" value="0.20364583333333333" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/DetailObat/app/src/main/res/layout/list_item.xml" value="0.20364583333333333" />
+        <entry key="..\:/TUGASSSS/AndroidStudioProjects/DetailObat/app/src/main/res/layout/main_list.xml" value="0.19519927536231885" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

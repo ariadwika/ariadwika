@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".TOAST">
+
+    <Button
+        android:id="@+id/tbToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:onClick="tampilpesan"
+        android:text="TOAST"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/konterview"
+        android:text="0"
+        android:background="@color/tosca"
+        android:textStyle="bold"
+        android:textSize="200dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/tbcount"
+        android:text="COUNT"
+        android:textSize="26dp"
+        android:onClick="hitungcount"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

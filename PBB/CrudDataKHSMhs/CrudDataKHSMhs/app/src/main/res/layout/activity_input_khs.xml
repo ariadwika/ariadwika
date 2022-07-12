@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Input_KHS">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/birumuda"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/birutua"
+            android:padding="5dp"
+            android:text="Entry Data KHS"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/kuning"
+                android:text="NIM"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:background="@color/kuning"
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:background="@color/kuning"
+                android:text="A11.2020.12607"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/kuning"
+                android:text="Nama"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:background="@color/kuning"
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:background="@color/kuning"
+                android:text="Aria Dwika Wicaksna"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/kuning"
+                android:text="Jurusan"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:background="@color/kuning"
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:background="@color/kuning"
+                android:text="TI - S1"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hijau"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="3dp"
+                    android:text="Kode"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"></View>
+
+                <EditText
+                    android:id="@+id/kodekhs"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="3dp"
+                    android:text="Mata Kuliah"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"></View>
+
+                <EditText
+                    android:id="@+id/makulkhs"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="3dp"
+                    android:text="SKS"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"></View>
+
+                <EditText
+                    android:id="@+id/skskhs"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:clickable="true"
+                    android:onClick="act_pred"
+                    android:padding="3dp"
+                    android:text="Angka"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"></View>
+
+                <EditText
+                    android:id="@+id/angkakhs"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="3dp"
+                    android:text="Huruf"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"></View>
+
+                <EditText
+                    android:id="@+id/hurufkhs"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="3dp"
+                    android:text="Predikat"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"></View>
+
+                <EditText
+                    android:id="@+id/predikatkhs"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/birumuda"
+                    android:padding="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tblsave"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@color/pink"
+                android:clickable="true"
+                android:onClick="act_plus"
+                android:padding="5dp"
+                android:text="SAVE"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="0dp"></View>
+
+            <TextView
+                android:id="@+id/tblview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/pink"
+                android:clickable="true"
+                android:onClick="act_view"
+                android:padding="5dp"
+                android:text="VIEW"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/rowlay"
+android:background="#ffffff"
+android:padding="5dp">
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/idno"
+    android:text="1" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/idnama"
+    android:text="Produk 1" />
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/idnilai_a"
+    android:text="1000" />
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/idnilai_b"
+    android:text="2000" />
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/idnilai_c"
+    android:text="3000" />
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/idnilai_d"
+    android:text="4000" />
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/idnilai_total"
+    android:text="10000" />
+</TableRow>

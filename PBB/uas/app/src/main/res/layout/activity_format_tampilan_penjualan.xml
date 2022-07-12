@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    tools:context=".format_tampilan_penjualan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="KODE "
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/kodbar_P"
+            android:hint="kode barang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="NAMA "
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/nabar_P"
+            android:layout_width="match_parent"
+            android:hint="nama barang"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="SATUAN "
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/sat_P"
+            android:layout_width="match_parent"
+            android:hint="satuan"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="JUMLAH PENJUALAN "
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/juml_P"
+            android:layout_width="match_parent"
+            android:hint="jumlah"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="HARGA SATUAN "
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/harg_P"
+            android:layout_width="match_parent"
+            android:hint="harga"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="HARGA TOTAL "
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/harg_tot_P"
+            android:layout_width="match_parent"
+            android:hint="harga total"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

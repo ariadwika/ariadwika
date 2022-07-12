@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border3"
+    tools:context=".ActivityTentang">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:paddingTop="7dp"
+            android:src="@drawable/udinus"
+            android:layout_width="275dp"
+            android:layout_height="275dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Fakultas Ilmu Komputer"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="TEKNIK INFORMATIKA"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Aplikasi Penjualan"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_margin="35dp"
+        android:layout_gravity="center"
+        android:src="@drawable/fotoku"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <TextView
+        android:text="A11.2020.12607"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@color/lightblue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Aria Dwika Wicaksana"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@color/lightblue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/lightblue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:clickable="true"
+            android:onClick="MasukButt"
+            android:text="MASUK"
+            android:background="@color/grey"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FIK JAYA/PBB/uas/app/src/main/res/drawable/border1.xml" value="0.2203125" />
+        <entry key="..\:/FIK JAYA/PBB/uas/app/src/main/res/layout/activity_format_tampilan.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/uas/app/src/main/res/layout/activity_format_tampilan_penjualan.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/uas/app/src/main/res/layout/activity_formulir_pegawai.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/uas/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/FIK JAYA/PBB/uas/app/src/main/res/layout/activity_tampil_data_jual.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/uas/app/src/main/res/layout/activity_tampil_hasil_penjualan.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/uas/app/src/main/res/layout/activity_tentang.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/uas/app/src/main/res/layout/activity_update_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/FIK JAYA/PBB/uas/app/src/main/res/layout/tampil_data_guru.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

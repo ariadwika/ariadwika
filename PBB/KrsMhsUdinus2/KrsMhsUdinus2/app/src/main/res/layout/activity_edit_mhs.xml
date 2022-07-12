@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".InputMhs">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Update Data Siswa"
+        android:textSize="20dp"
+        android:background="@color/purple_500"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Kode :"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/kodemhs_edit"
+            android:layout_weight="1"
+            android:hint="masukan kode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Matkul :"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/matkulmhs_edit"
+            android:layout_weight="1"
+            android:hint="masukan matkul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="SKS :"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/sksmhs_edit"
+            android:layout_weight="1"
+            android:hint="masukan matkul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="N.Angka :"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/angkamhs_edit"
+            android:layout_weight="1"
+            android:hint="masukan angka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="N.Huruf :"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/hurufmhs_edit"
+            android:layout_weight="1"
+            android:hint="masukan huruf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Predikat :"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/predikatmhs_edit"
+            android:layout_weight="1"
+            android:hint="masukan predikat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tombol_update"
+            android:layout_width="match_parent"
+            android:text="UPDATE"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="0dp"></View>
+
+        <Button
+            android:id="@+id/tombol_delete"
+            android:layout_width="match_parent"
+            android:text="DELETE"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="0dp"></View>
+
+        <Button
+            android:id="@+id/tombol_view"
+            android:layout_width="match_parent"
+            android:text="TAMPIL"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

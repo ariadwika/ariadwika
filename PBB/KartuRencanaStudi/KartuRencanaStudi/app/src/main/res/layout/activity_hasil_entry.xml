@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HasilEntry">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:text="ENTRY DATA KHS"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIM : A11.2020.12607"
+                android:paddingLeft="30dp"
+                android:textColor="@color/blue"
+                android:textSize="20dp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama : ARIA DWIKA WICAKSANA"
+                android:paddingLeft="30dp"
+                android:textColor="@color/blue"
+                android:textSize="20dp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jurusan : TI - SI"
+                android:paddingLeft="30dp"
+                android:textColor="@color/blue"
+                android:textSize="20dp">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/nama"
+                        android:layout_width="match_parent"
+                        android:text="Nama              : "
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <EditText
+                        android:id="@+id/nama1"
+                        android:hint="Masukan nama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/matkul"
+                        android:layout_width="match_parent"
+                        android:text="Matakuliah    : "
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <EditText
+                        android:id="@+id/matkul1"
+                        android:hint="Masukan matkul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/sks"
+                        android:layout_width="match_parent"
+                        android:text="SKS                  : "
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <EditText
+                        android:id="@+id/sks1"
+                        android:hint="Masukan SKS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/angka"
+                        android:layout_width="match_parent"
+                        android:text="N.Angka          : "
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <EditText
+                        android:id="@+id/angka1"
+                        android:hint="Masukan Angka"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/huruf"
+                        android:layout_width="match_parent"
+                        android:text="N.Angka          : "
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <EditText
+                        android:id="@+id/huruf1"
+                        android:hint="Masukan Huruf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/predikat"
+                        android:layout_width="match_parent"
+                        android:text="Peredikat         : "
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <EditText
+                        android:id="@+id/predikat1"
+                        android:hint="Masukan Predikat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="SAVE"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:text="CANCEL"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/palette"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ImageView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
