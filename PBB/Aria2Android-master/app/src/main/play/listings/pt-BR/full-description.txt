@@ -1,0 +1,8 @@
+Com o Aria2 Android você pode rodar um aria2 real, um gerenciador de download de código aberto, executável no seu dispositivo.
+
+É possível salvar facilmente a sessão para pausar os downloads e continuá-los mais tarde e controlar seu servidor através da interface JSON-RPC.
+
+Este projeto é de código aberto em https://github.com/devgianlu/Aria2Android
+--------------------------------
+
+aria2 é desenvolvido por Tatsuhiro Tsujikawa (https://github.com/tatsuhiro-t).

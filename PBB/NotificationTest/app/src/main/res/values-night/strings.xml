@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bigtext_notification_style_title" />
+    <string name="simple_notification_title" />
+    <string name="bigpicture_notification_style_title" />
+    <string name="inbox_notification_style_title" />
+    <string name="action_notification_title" />
+</resources>

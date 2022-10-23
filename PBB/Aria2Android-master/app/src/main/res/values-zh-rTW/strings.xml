@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aria2Android</string>
+    <string name="logs">紀錄檔</string>
+    <string name="permissionRequest">權限請求</string>
+    <string name="writeStorageMessage">Aria2Android 需要使用外部儲存空間來儲存您下載的檔案。</string>
+    <string name="about_app">關於 App</string>
+    <string name="unknown">未知</string>
+    <string name="noLogs">紀錄檔為空。</string>
+    <string name="failedCreatingSessionFile">創建空會話檔案失敗!</string>
+    <string name="writePermissionDenied">您未授予寫入權限! 無法啟用aria2!</string>
+    <string name="stopService">停止服務</string>
+</resources>

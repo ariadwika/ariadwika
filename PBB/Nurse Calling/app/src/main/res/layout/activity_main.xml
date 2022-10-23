@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:text="Dashboard"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="46dp"
+                android:layout_gravity="left"
+                android:src="@drawable/logo" />
+
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_baseline_notifications_24" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/boxinfo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle_7"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bus"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/homecare" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Permintaan Kunjungan"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Jenis Tindakan, Lokasi"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Tingkat Urgensi, dan Photo"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/takeMe"
+                    android:layout_width="311dp"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Buka Tindakan"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/menu_bawah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:foregroundGravity="bottom"
+            app:menu="@menu/menu_bawah" />
+
+    </FrameLayout>
+</RelativeLayout>

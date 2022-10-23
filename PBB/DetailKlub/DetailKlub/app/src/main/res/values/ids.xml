@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="gambar_klub" type="id" />
+    <item name="nama_klub" type="id" />
+    <item name="tahun_klub" type="id" />
+    <item name="stadion_klub" type="id" />
+    <item name="website_klub" type="id" />
+    <item name="pelatih_klub" type="id" />
+    <item name="lokasi_klub" type="id" />
+
+</resources>

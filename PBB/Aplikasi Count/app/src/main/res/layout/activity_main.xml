@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Hello Toast" />
+    <Button
+        android:id="@+id/toast_button"
+        android:onClick="ToastClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/biru"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="TOAST"/>
+    <TextView
+        android:id="@+id/kounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/kuning"
+        android:textColor="@color/biru"
+        android:layout_weight="1"
+        android:text="0"
+        android:textSize="250dp"/>
+    <Button
+        android:id="@+id/count_button"
+        android:onClick="CountClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/biru"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="COUNT"/>
+    
+
+</LinearLayout>

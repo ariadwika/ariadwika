@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gianlu.aria2android">
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <!-- You know... -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Import bin -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Start service on boot -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".ThisApplication"
+        android:allowBackup="true"
+        android:banner="@mipmap/ic_launcher"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:installLocation="internalOnly"
+        android:label="@string/app_name"
+        android:resizeableActivity="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!-- TV activity -->
+        <activity
+            android:name=".TvActivity"
+            android:banner="@drawable/tv_banner"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Leanback"
+            android:exported="true">
+
+            <!-- Leanback (Android TV) launcher -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main activity -->
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="uiMode"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.Main"
+            android:windowSoftInputMode="stateHidden"
+            android:exported="true">
+
+            <!-- Standard launcher -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Preferences activity -->
+        <activity
+            android:name=".PreferenceActivity"
+            android:configChanges="uiMode" />
+
+        <!-- Boot completed receiver -->
+        <receiver
+            android:name=".BootCompletedReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Logs provider -->
+        <provider
+            android:name="com.gianlu.commonutils.logs.LogsFileProvider"
+            android:authorities="com.gianlu.aria2android.logs"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/logs_paths" />
+        </provider>
+    </application>
+</manifest>

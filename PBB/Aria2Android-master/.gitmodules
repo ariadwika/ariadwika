@@ -1,0 +1,7 @@
+[submodule "CommonUtils"]
+	path = CommonUtils
+	url = http://github.com/devgianlu/CommonUtils
+	branch = master
+[submodule "aria2lib"]
+	path = aria2lib
+	url = https://github.com/devgianlu/aria2lib

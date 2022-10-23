@@ -1,0 +1,101 @@
+plugins {
+    id 'com.github.triplet.play' version '3.7.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.crashlytics'
+
+def isCi = System.getenv("CI") == "true"
+android {
+    compileSdkVersion 32
+    buildToolsVersion "33.0.0"
+
+    defaultConfig {
+        applicationId "com.gianlu.aria2android"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 73
+        versionName "2.6.5"
+    }
+
+    if (isCi) {
+        signingConfigs {
+            release {
+                storeFile file("../.github/keystore.jks")
+                storePassword System.getenv("KEYSTORE_STORE_PASS")
+                keyAlias = System.getenv("KEYSTORE_KEY_ALIAS")
+                keyPassword System.getenv("KEYSTORE_KEY_PASS")
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (isCi) signingConfig signingConfigs.release
+        }
+    }
+
+    flavorDimensions 'main'
+    productFlavors {
+        standard {
+            dimension 'main'
+
+            buildTypes {
+                release {
+                    minifyEnabled true
+                    shrinkResources true
+                }
+            }
+        }
+
+        foss {
+            dimension 'main'
+
+            buildTypes {
+                release {
+                    minifyEnabled false
+                    shrinkResources false
+                }
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        warning 'MissingTranslation', 'Instantiatable'
+    }
+
+    playConfigs {
+        foss {
+            commit.set(false)
+            enabled.set(false)
+        }
+    }
+}
+
+play {
+    defaultToAppBundles.set(true)
+    enabled.set(isCi)
+    serviceAccountCredentials.set(file("../.github/secrets.json"))
+    track.set("production")
+    releaseStatus.set(com.github.triplet.gradle.androidpublisher.ReleaseStatus.DRAFT)
+}
+
+dependencies {
+    implementation 'androidx.leanback:leanback:1.2.0-alpha02'
+    implementation 'com.google.android.material:material:1.6.1'
+
+    implementation project(':aria2lib')
+    implementation(project(':CommonUtils')) {
+        exclude group: 'com.github.faruktoptas', module: 'FancyShowCaseView'
+    }
+}
+
+apply plugin: 'com.google.gms.google-services'

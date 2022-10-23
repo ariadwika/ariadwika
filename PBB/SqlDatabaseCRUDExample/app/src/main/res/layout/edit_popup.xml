@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/popup_element">
+    <EditText
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14sdp"
+        android:hint="Country Name"
+        android:textColor="#1E90FF"
+        android:id="@+id/editTextCountry"/>
+    <EditText
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="#4B0082"
+        android:hint="Population"
+        android:inputType="number"
+        android:id="@+id/editTextPopulation"
+        />
+    <Button
+        android:layout_margin="@dimen/_10sdp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:id="@+id/save_popup"/>
+
+</LinearLayout>

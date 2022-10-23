@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">livescore</string>
+    <string name="_0a" />
+    <string name="team_2">TEAM 2</string>
+    <string name="team_1">TEAM 1</string>
+    <string name="_0b">0</string>
+    <string name="night_mode" />
+    <string name="day_mode" />
+
+</resources>
